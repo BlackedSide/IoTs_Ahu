@@ -27,7 +27,17 @@
     border-left: 10px solid #76d6ff;
     margin-bottom: 20px;
 }
-.module-main p{
+.module-left p{
     text-indent: 2em;
     padding: 5px 0 5px 0;
+}
+.module-right p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 6px;
+    padding-left: 6px;
+    border: 1px solid #c0c0c0;
+}
+.module-right p a{
+    color: #333333;
 }
