@@ -74,10 +74,33 @@
 
 .news{
     width: 556px;
-    height: 396px;
+    height: 401px;
+    line-height: 43px;
     margin-top: 20px;
     background-color: #fff;
     border: 2px solid #333333;
+    overflow: hidden;
+}
+.news p{
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.news p em{
+    margin: 16px 5px 16px 0;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+}
+.news p a{
+    color: #333333;
+}
+.news p span{
+    font-size: 16px;
+    color: #888888;
+    float: right;
 }
 .news-head{
     width: 556px;
